@@ -20,3 +20,16 @@ ul {
 li {
     display: inline-block;
 }
+
+.spēles_lauk {
+     background: rgb(0, 0, 0);
+     width: 520px;
+     justify-content: center;
+     margin: auto;
+     padding: 10px;
+     display: flex;
+}
+
+.Bloks{
+background: rgb(184, 17, 17);
+}
