@@ -28,8 +28,17 @@ li {
      margin: auto;
      padding: 10px;
      display: flex;
+     flex-wrap: wrap;
 }
 
 .Bloks{
-background: rgb(184, 17, 17);
+    background: rgb(184, 17, 17);
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 45px;
+    display: flex;
+    border-radius: 5px;
 }
