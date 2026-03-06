@@ -74,7 +74,7 @@ document.activeElement("DOMContent", function(){
     updateHUD();
 });
 
-funcion veiktGajienu(bloks,emoji){
+function veiktGajienu(bloks,emoji){
     //neļauj atvērt jau atvērto, neļauj atvērt vairāk par 2 kartiņām
     if (bloks.classList.contains("atverts")|| pedejieDivi.length === 2) {
         return;
@@ -108,6 +108,15 @@ funcion veiktGajienu(bloks,emoji){
                     document.location = `/tops#${encodeURIComponent(vards)}, ${kliski}`;
                 }, 300);
             }
+        }else{
+            //ja atvērtie 2 laukumi nav vienādi
+            setTimeout(() => {
+                pirmais.bloks.innerText = "";
+                otrais.bloks.innerText = "";
+                pirmais.bloks.classList.remove("atverts");
+                otrais.bloks.classList.remove("atverts");
+                pedejieDivi = {};
+            },800);     
         }
     }
 }
