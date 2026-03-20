@@ -1,12 +1,12 @@
 function saktSpeli()
 {
-    let ievaditsVards =document.querySelector('#vards').value;
+    let ievaditsVards = document.querySelector('#vards').value;
     if (ievaditsVards == '')
     {
-        alert('Ievadi savu vārdu!')
+        alert('Ievadi savu vārdu!');
     }
     else
     {
-        window.location = '/spele#' + ievaditsVards
+        window.location = '/spele#' + ievaditsVards;
     }
 }

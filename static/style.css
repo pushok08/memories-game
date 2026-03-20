@@ -2,37 +2,36 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(232, 232, 233);
+    background: rgb(180, 178, 178);
 }
 
-h1{
+h1 {
     text-align: center;
-    background: rgb(151, 190, 241);
-    color: rgb(26, 50, 187);
+    background: rgb(152, 198, 241);
+    color: rgb(2, 22, 109);
 }
 
 ul {
     text-align: center;
     padding: 0px;
-
 }
 
 li {
     display: inline-block;
 }
 
-.spēles_lauk {
-     background: rgb(0, 0, 0);
-     width: 520px;
-     justify-content: center;
-     margin: auto;
-     padding: 10px;
-     display: flex;
-     flex-wrap: wrap;
+.speles_lauk {
+    background: black;
+    width: 520px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.Bloks{
-    background: rgb(184, 17, 17);
+.bloks {
+    background: red;
     width: 100px;
     height: 100px;
     align-items: center;
@@ -50,21 +49,20 @@ a {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    background-color: rgb(9, 125, 192);
-    color: aliceblue;
-    border: 2px solid #0056b3 ;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #0056b3;
     border-radius: 5px;
-    transition: background-color 0.3s; transform: 0.2s;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-a:hover{
+a:hover {
     background-color: #0056b3;
     transform: scale(1.05);
 }
 
-a:active{
+a:active {
     background-color: #007bff;
-    color: aquamarine;
+    color: rgb(84, 236, 148);
     transform: scale(1.05);
-
 }
